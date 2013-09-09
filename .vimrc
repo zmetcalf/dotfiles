@@ -1,6 +1,6 @@
 syntax on
 set expandtab
-set tabstop=4
+set tabstop=2
 set number
 set background:dark
 
@@ -15,7 +15,7 @@ set mouse=a
 set nowrap
 set autoindent
 set copyindent
-set shiftwidth=4
+set shiftwidth=2
 set hlsearch
 set incsearch
 set smartcase
