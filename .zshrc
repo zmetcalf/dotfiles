@@ -51,3 +51,5 @@ export PATH=$PATH:/home/zach/my-pi-projects/c++/BookExercises/ch4/:/home/zach/re
 export CLASSPATH=$CLASSPATH:/home/zach/java/jars
 
 source ~/.nvm/nvm.sh
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
