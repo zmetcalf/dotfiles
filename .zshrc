@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="crunch"
+ZSH_THEME="candy"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -45,10 +45,10 @@ plugins=(git debian django node npm nyan themes python ssh-agent github)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre
-export PYTHONPATH=$PYTHONPATH:/home/zach/repos/Triple-Draw-Deuce-to-Seven-Lowball-Limit/:/home/zach/repos/django-debug-toolbar/:/home/zach/repos/django-fusionbox/fusionbox/:/home/zach/repos/django-backupdb/:/home/zach/repos/django-widgy/:/home/zach/repos/mezzanine/
+export PYTHONPATH=$PYTHONPATH:/home/zach/repos/Triple-Draw-Deuce-to-Seven-Lowball-Limit/:/home/zach/repos/django-debug-toolbar/:/home/zach/repos/django-fusionbox/fusionbox/:/home/zach/repos/django-backupdb/:/home/zach/repos/django-widgy/:/home/zach/repos/mezzanine/:/home/zach/repos/django-argonauts
 export PATH=$PATH:/home/zach/my-pi-projects/c++/BookExercises/ch4/:/home/zach/repos/ghar/bin/
 export CLASSPATH=$CLASSPATH:/home/zach/java/jars
+setenv  ftp://ftp.freebsd.org/pub/FreeBSD/ports/ia64/packages-9-stable/Latest/
 
 source ~/.nvm/nvm.sh
 

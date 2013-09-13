@@ -4,6 +4,7 @@ set tabstop=2
 set number
 set background:dark
 
+set nomodeline
 set showcmd
 set showmatch
 set ignorecase
@@ -25,6 +26,9 @@ set wildignore=*.pyc,*.class
 set title
 set nobackup
 set noswapfile
+set backspace=2
+:fixdel
+set backspace=indent,eol,start
 
 execute pathogen#infect()
 
