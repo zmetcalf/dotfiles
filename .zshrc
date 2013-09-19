@@ -45,7 +45,6 @@ plugins=(git debian django node npm nyan themes python ssh-agent github)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre
 export PYTHONPATH=$PYTHONPATH:/home/zach/repos/Triple-Draw-Deuce-to-Seven-Lowball-Limit/:/home/zach/repos/django-debug-toolbar/:/home/zach/repos/django-fusionbox/fusionbox/:/home/zach/repos/django-backupdb/:/home/zach/repos/django-widgy/:/home/zach/repos/mezzanine/:/home/zach/repos/django-argonauts
 export PATH=$PATH:/home/zach/my-pi-projects/c++/BookExercises/ch4/:/home/zach/repos/ghar/bin/
 export CLASSPATH=$CLASSPATH:/home/zach/java/jars
