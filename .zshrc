@@ -53,3 +53,6 @@ export CLASSPATH=$CLASSPATH:/home/zach/java/jars
 source ~/.nvm/nvm.sh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/home/zach/.gvm/bin/gvm-init.sh" ]] && source "/home/zach/.gvm/bin/gvm-init.sh"
