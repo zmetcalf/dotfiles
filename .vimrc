@@ -32,8 +32,8 @@ set backspace=indent,eol,start
 
 execute pathogen#infect()
 
-autocmd vimenter * NERDTree
-autocmd vimenter * TagbarOpen
+"autocmd vimenter * NERDTree
+"autocmd vimenter * TagbarOpen
 
 nmap <F9> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
