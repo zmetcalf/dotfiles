@@ -49,7 +49,7 @@ export PYTHONPATH=$PYTHONPATH:/home/zach/repos/Triple-Draw-Deuce-to-Seven-Lowbal
 export PATH=$PATH:/home/zach/my-pi-projects/c++/BookExercises/ch4/:/home/zach/repos/ghar/bin/
 export CLASSPATH=$CLASSPATH:/home/zach/java/jars
 export CATALINA_HOME=/home/zach/tomcat7/bin
-setenv  ftp://ftp.freebsd.org/pub/FreeBSD/ports/amd64/packages-9.2-release/Latest/
+echo 'setenv PACKAGESITE "ftp://ftp.freebsd.org/pub/FreeBSD/ports/amd64/packages-9.2-release/Latest/"'
 
 source ~/.nvm/nvm.sh
 
