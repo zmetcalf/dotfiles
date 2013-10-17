@@ -48,8 +48,8 @@ source $ZSH/oh-my-zsh.sh
 export PYTHONPATH=$PYTHONPATH:/home/zach/repos/Triple-Draw-Deuce-to-Seven-Lowball-Limit/:/home/zach/repos/django-debug-toolbar/:/home/zach/repos/django-fusionbox/fusionbox/:/home/zach/repos/django-backupdb/:/home/zach/repos/django-widgy/:/home/zach/repos/mezzanine/:/home/zach/repos/django-argonauts
 export PATH=$PATH:/home/zach/my-pi-projects/c++/BookExercises/ch4/:/home/zach/repos/ghar/bin/
 export CLASSPATH=$CLASSPATH:/home/zach/java/jars
-export CATALINA_HOME=/home/zach/tomcat7/bin
-echo 'setenv PACKAGESITE "ftp://ftp.freebsd.org/pub/FreeBSD/ports/i386/packages-9.2-release/Latest/"'
+export CATALINA_HOME=/home/zach/tomcat7
+echo 'setenv PACKAGESITE "ftp://ftp.freebsd.org/pub/FreeBSD/ports/amd64/packages-9.2-release/Latest/"'
 
 source ~/.nvm/nvm.sh
 
