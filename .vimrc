@@ -25,6 +25,7 @@ set wildignore=*.pyc,*.class
 set title
 set nobackup
 set noswapfile
+set pastetoggle=<F2>
 
 execute pathogen#infect()
 
