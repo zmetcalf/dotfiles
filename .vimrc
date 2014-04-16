@@ -27,6 +27,8 @@ set nobackup
 set noswapfile
 set pastetoggle=<F2>
 
+colorscheme torte
+
 execute pathogen#infect()
 
 " autocmd vimenter * NERDTree
