@@ -27,7 +27,9 @@ set nobackup
 set noswapfile
 set pastetoggle=<F2>
 
-colorscheme torte
+if has("gui_running")
+  colorscheme torte
+endif
 
 execute pathogen#infect()
 
