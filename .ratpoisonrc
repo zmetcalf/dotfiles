@@ -1,0 +1,7 @@
+exec /usr/bin/rpws init 6 -k
+
+bind c exec lxterm
+
+bind i exec chromium
+
+bind f exec nemo
