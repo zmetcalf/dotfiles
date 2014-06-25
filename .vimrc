@@ -32,6 +32,7 @@ if has("gui_running")
 endif
 
 execute pathogen#infect()
+syntax on
 
 " autocmd vimenter * NERDTree
 " autocmd vimenter * TagbarOpen

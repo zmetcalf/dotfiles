@@ -4,24 +4,18 @@
 [submodule ".vim/bundle/tagbar"]
 	path = .vim/bundle/tagbar
 	url = git@github.com:majutsushi/tagbar.git
-[submodule ".vim/bundle/vim-fugitive"]
-	path = .vim/bundle/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
 [submodule ".vim/bundle/minibufexpl.vim"]
 	path = .vim/bundle/minibufexpl.vim
 	url = git@github.com:fholgado/minibufexpl.vim.git
-[submodule "syntastic"]
-	path = syntastic
-	url = git@github.com:scrooloose/syntastic.git
 [submodule ".vim/bundle/tcomment_vim"]
 	path = .vim/bundle/tcomment_vim
 	url = git@github.com:tomtom/tcomment_vim.git
-[submodule ".vim/bundle/vim-python-pep8-indent"]
-	path = .vim/bundle/vim-python-pep8-indent
-	url = git@github.com:hynek/vim-python-pep8-indent.git
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic
 	url = git@github.com:scrooloose/syntastic.git
 [submodule ".vim/bundle/command-t"]
 	path = .vim/bundle/command-t
 	url = git@github.com:wincent/Command-T.git
+[submodule ".vim/bundle/vim-flake8"]
+	path = vim-flake8
+	url = git@github.com:nvie/vim-flake8
