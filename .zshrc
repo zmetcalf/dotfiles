@@ -56,3 +56,11 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/home/zach/.gvm/bin/gvm-init.sh" ]] && source "/home/zach/.gvm/bin/gvm-init.sh"
+
+function secure_chromium {
+    port=4711
+    export SOCKS_SERVER=localhost:$port
+    export SOCKS_VERSION=5
+    chromium &
+    exit
+}
