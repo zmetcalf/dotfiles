@@ -42,7 +42,7 @@ ZSH_THEME="candy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git debian django node npm nyan themes python ssh-agent github)
 
-zstyle :omz:plugins:ssh-agent identities id_rsa fusionbox
+zstyle :omz:plugins:ssh-agent identities id_rsa
 
 source $ZSH/oh-my-zsh.sh
 
