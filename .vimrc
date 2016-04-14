@@ -49,3 +49,5 @@ nmap <F8> :TagbarToggle<CR>
 " auto remove whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Command T - ignore node_modules, pyc and others.
+set wildignore=node_modules,*.swp,*.bak,*.pyc,*.class,*.jar,*.gif,*.png,*.jpg
