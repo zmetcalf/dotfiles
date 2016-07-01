@@ -48,7 +48,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export GOPATH=~/go
-export PATH=$PATH:/home/zach/my-pi-projects/c++/BookExercises/ch4/:/home/zach/repos/ghar/bin/:/~/go/bin
+export PATH=$PATH:/home/zach/my-pi-projects/c++/BookExercises/ch4/:/home/zach/repos/ghar/bin/:~/go/bin
 export CLASSPATH=$CLASSPATH:/home/zach/java/jars
 
 source ~/.nvm/nvm.sh
