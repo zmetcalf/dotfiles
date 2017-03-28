@@ -46,8 +46,11 @@ syntax on
 nmap <F9> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
 
+" Map colon to semicolon
+nmap ; :
+
 " auto remove whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
-" Command T - ignore node_modules, pyc and others.
-set wildignore=node_modules,*.swp,*.bak,*.pyc,*.class,*.jar,*.gif,*.png,*.jpg
+" Command T - ignore node_modules, vendor (composer), pyc and others.
+set wildignore=node_modules,*.swp,*.bak,*.pyc,*.class,*.jar,*.gif,*.png,*.jpg,vendor
