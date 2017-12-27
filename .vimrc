@@ -33,6 +33,8 @@ let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['jshint']
 
+let g:jsx_ext_required = 0
+
 if has("gui_running")
   colorscheme torte
 endif
