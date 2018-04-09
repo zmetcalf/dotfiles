@@ -3,6 +3,7 @@ set expandtab
 set tabstop=2
 set number
 set background:dark
+:color delek
 
 set showcmd
 set showmatch
