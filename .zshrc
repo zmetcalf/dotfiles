@@ -40,28 +40,15 @@ ZSH_THEME="candy"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git archlinux docker debian django node npm themes python screen ssh-agent github)
+plugins=(git archlinux docker debian node npm themes python screen ssh-agent github)
 
 zstyle :omz:plugins:ssh-agent identities id_rsa
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-export GOPATH=~/go
-export PATH=$PATH:/home/zach/my-pi-projects/c++/BookExercises/ch4/:/home/zach/repos/ghar/bin/:~/go/bin
-export CLASSPATH=$CLASSPATH:/home/zach/java/jars
+export NVM_DIR="$HOME/.config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source ~/.nvm/nvm.sh
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/home/zach/.gvm/bin/gvm-init.sh" ]] && source "/home/zach/.gvm/bin/gvm-init.sh"
-
-function secure_chromium {
-    port=4711
-    export SOCKS_SERVER=localhost:$port
-    export SOCKS_VERSION=5
-    chromium &
-    exit
-}
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
